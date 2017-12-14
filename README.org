@@ -1,0 +1,2 @@
+This repository holds the documentation on how to build a
+media studio using a raspberry pie.

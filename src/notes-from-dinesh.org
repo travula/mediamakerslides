@@ -1,0 +1,45 @@
+#+TITLE: Media Maker slides
+#+AUTHOR: Thirumal Ravula
+#+DATE: [2017-12-14 Thu]
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+
+* Introduction
+  This document talks about setting up a studio using
+  raspberry pie.  This is being developed by Dinesh and his
+  [[http://janastu.org/home/index.html#/about-us][team]].  
+
+* Notes from Dinesh
+  
+  To build an open source mmKiosk we need
+
+** Hardware
+   1. raspberry pi 3 since it has built wifi
+   2. usb mic =h2n zoom=
+
+   3. 16gb class 10 micro SD chard
+
+   4. 5v .5-1amp power supply
+   5. Wireless keyboard and mouse
+   6. HDMI monitor
+   7. Telescopic antenna
+
+** Software
+   1. Rasbian OS latest
+
+   2. Audio recording software, to record audio we have
+      installed =audacity=.  This software is very good and
+      it recognises usb audio mic by it self.
+
+   3. Broadcast, to broadcast on the band =fm transmitter=
+      software is used.  There are also other good software
+      / codes on github to get good quality fm transmission.
+
+   4. Video recording and streaming software is not
+      installed yet.  The team thinks there is good case for
+      installing such software to do video broadcasts.
+      Lookout for such software is in progress, while one of
+      the team members - Arun - has tried =gstreamer= and
+      the task is not completed yet. 
